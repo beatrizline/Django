@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>ErickGym - Web</title>
+    <script src="scripts.js" defer></script>
+    <style>
+        body{background-color: grey; text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;}
+    </style>
+        
+</head>
+<body>
+    <!--Apresentou muitos erros durante a execução-->
+    <h1>ErickGym - Web (Apenas teste)</h1>
+
+    <main>
+        <form action="">
+            <label for="cx-nome">Nome:</label>
+            <input id="cx-nome" type="text" required>
+            
+            <p></p>
+            <label for="cx-sexo">Sexo:</label>
+            <select id="cx-sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            <p></p>
+            
+            <label for="cx-dt_nasc">Data de Nascimento:</label>
+            <input id="cx-dt_nasc" type="date" required>
+            <p></p>
+            
+            <label for="cx-telefone">Telefone:</label>
+            <input id="cx-telefone" type="tel" placeholder="" required>
+            <p></p>
+
+            <label for="cx-cpf">CPF:</label>
+            <input id="cx-cpf" type="text" placeholder="" required>
+            
+            <p></p>
+            <button type="submit" id="btnsalvar">Salvar</button>
+        </form>
+    </main>
+
+    <h2>Lista de Alunos Cadastrados</h2>
+    <ol id="lista-cadastro"></ol>
+    <p></p>
+
+    <h2>Lista de Exercícios</h2>
+    <ol id="lista-exercicio"></ol>
+
+</body>
+</html>
